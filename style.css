@@ -532,3 +532,252 @@ text-align:left;
 padding:20px;
 font-family:'Poppins',sans-serif;
 }
+
+
+/* ===== MOBILE RESPONSIVE ===== */
+
+@media screen and (max-width: 768px) {
+
+/* TOP HERO MOBILE */
+.top-hero-content {
+flex-direction: column;
+gap: 30px;
+padding: 20px;
+text-align: center;
+}
+
+.hero-photo img {
+width: 260px;
+height: 340px;
+}
+
+.hero-text {
+text-align: center;
+}
+
+.hero-text h1 {
+font-size: 60px;
+}
+
+.hero-text p {
+font-size: 16px;
+letter-spacing: 2px;
+}
+
+
+/* CALENDAR MOBILE */
+.calendar-container {
+flex-direction: column;
+width: 100%;
+}
+
+.left {
+width: 100%;
+padding: 30px 20px;
+box-sizing: border-box;
+}
+
+.left h1 {
+font-size: 32px;
+text-align: center;
+letter-spacing: 2px;
+}
+
+.line {
+width: 100%;
+max-width: 200px;
+margin: 15px auto 30px;
+}
+
+.days, .dates {
+gap: 10px;
+max-width: 100%;
+}
+
+.days span {
+font-size: 10px;
+}
+
+.dates span {
+font-size: 14px;
+}
+
+.right {
+width: 100%;
+padding: 30px 20px;
+flex-direction: column;
+}
+
+.photo-frame img {
+width: 220px;
+height: 280px;
+}
+
+.photo-frame::after {
+right: -12px;
+bottom: -12px;
+border: 6px solid #e6e6e6;
+}
+
+.text {
+position: static;
+font-size: 36px;
+margin: 20px 0;
+text-align: center;
+}
+
+.audio-container {
+position: static;
+transform: none;
+margin-top: 15px;
+}
+
+.audio-container audio {
+width: 180px;
+}
+
+
+/* SECTIONS MOBILE */
+.section {
+padding: 40px 15px;
+min-height: auto;
+}
+
+.content-box {
+padding: 25px 15px;
+margin: 0 10px;
+}
+
+.content-box h1 {
+font-size: 1.6rem;
+}
+
+.words-paragraph .greeting {
+font-size: 26px;
+}
+
+.words-paragraph p {
+font-size: 14px;
+line-height: 1.7;
+}
+
+
+/* MEMORIES MOBILE */
+#memories h1 {
+font-size: 1.8rem;
+margin-bottom: 25px;
+}
+
+.photo-album {
+gap: 20px;
+padding: 10px;
+}
+
+.polaroid {
+width: 150px;
+padding: 8px 8px 35px;
+}
+
+.polaroid img {
+height: 160px;
+}
+
+.polaroid:nth-child(n) {
+transform: translateY(20px) rotate(-2deg);
+}
+
+.polaroid:hover {
+transform: scale(1.05) rotate(0deg) !important;
+}
+
+
+/* SECRET MESSAGE MOBILE */
+.secret-message {
+max-width: 100%;
+padding: 0 10px;
+box-sizing: border-box;
+}
+
+.envelope {
+max-width: 300px;
+height: 140px;
+}
+
+.envelope-label span {
+font-size: 20px;
+padding: 6px 15px;
+}
+
+.letter-paper {
+padding: 20px;
+max-width: 100%;
+}
+
+.message-content p {
+font-size: 13px;
+padding: 10px;
+}
+
+
+/* NAVIGATION MOBILE */
+.nav-link {
+padding: 8px 16px;
+font-size: 0.95rem;
+margin: 0 8px;
+}
+
+}
+
+
+/* EXTRA SMALL MOBILE */
+@media screen and (max-width: 400px) {
+
+.top-hero-content {
+padding: 15px;
+}
+
+.hero-photo img {
+width: 200px;
+height: 260px;
+}
+
+.hero-text h1 {
+font-size: 48px;
+}
+
+.left {
+padding: 20px 15px;
+}
+
+.left h1 {
+font-size: 26px;
+}
+
+.days, .dates {
+gap: 6px;
+}
+
+.photo-frame img {
+width: 180px;
+height: 230px;
+}
+
+.content-box {
+padding: 20px 12px;
+margin: 0 5px;
+}
+
+.content-box h1 {
+font-size: 1.4rem;
+}
+
+.polaroid {
+width: 130px;
+padding: 6px 6px 28px;
+}
+
+.polaroid img {
+height: 140px;
+}
+
+}
